@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="tvName" type="id" />
+    <item name="tvage" type="id" />
+    <item name="etName" type="id" />
+    <item name="etAge" type="id" />
+    <item name="btnSend" type="id" />
+</resources>
