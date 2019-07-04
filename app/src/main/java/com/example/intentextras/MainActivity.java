@@ -38,6 +38,12 @@ public class MainActivity extends AppCompatActivity {
 
                 name = etName.getText().toString();
                 age = etAge.getText().toString();
+                Intent myIntent = new Intent(getBaseContext(),ReceiverActivity.class);
+                String name = etName.getText().toString();
+                String age = etAge.getText().toString();
+                myIntent.putExtra("etName",name);
+                myIntent.putExtra("etAge",age);
+                startActivity(myIntent);
 
 
                 FloatingActionButton fab = findViewById(R.id.fab);

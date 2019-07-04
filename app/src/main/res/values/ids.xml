@@ -5,4 +5,5 @@
     <item name="etName" type="id" />
     <item name="etAge" type="id" />
     <item name="btnSend" type="id" />
+    <item name="tvAge" type="id" />
 </resources>
